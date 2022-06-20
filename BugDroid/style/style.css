@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Idroid";
+    src: url("../fonts/idroid.otf") format("opentype");
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
