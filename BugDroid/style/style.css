@@ -12,7 +12,7 @@
 
 :root {
     --cor1: #84E1AD;
-    --cor2: #3DDB84;
+    --cor2: #3DDc84;
     --cor3: #1A5C38;
 }
 
@@ -151,6 +151,10 @@ main {
     list-style-image: url("/BugDroid/media/Correct.png");
 }
 
+abbr {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .extratext {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 15px 0px 15px;
@@ -159,6 +163,8 @@ main {
 #lastextratext {
     padding-bottom: 20px;
 }
+
+
 
 footer {
     margin-top: 20px;
@@ -187,6 +193,10 @@ strong {
 
 .footer {
     color: white;
+}
+
+.footer > a > strong {
+    
 }
 
 @media screen and (max-width: 760px) {
